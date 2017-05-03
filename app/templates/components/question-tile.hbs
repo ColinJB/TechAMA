@@ -1,5 +1,6 @@
 <li>
   <h4>{{question.content}}</h4>
+  {{edit-question question=question editQuestion="editQuestion"}}
   <button {{action 'delete' question}}>Delete Question</button><br>
   Posted by: {{question.author}}<br>
   Additional Notes: {{question.notes}}<hr>
