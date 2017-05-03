@@ -1,0 +1,17 @@
+{ "questions": [{
+    "author": "Colin Bloom",
+    "content": "What is the difference between Java and JavaScript?",
+    "notes": "I know this may seem like a dumb question, but they both have Java in the name."
+  }, {
+    "author": "Grace Stuart",
+    "content": "What is the difference between Ember and Angular?",
+    "notes": "I see many similarities; hoping someone can clarify."
+    }],
+  "answers": [{
+    "author": "Grace Stuart",
+    "content": "Key differences between Java and JavaScript: Java is an OOP programming language while Java Script is an OOP scripting language. Java creates applications that run in a virtual machine or browser while JavaScript code is run on a browser only. Java code needs to be compiled while JavaScript code are all in text."
+  }, {
+    "author": "Colin Bloom",
+    "content": "Ultimately, I think you should examine your application’s goals. Do you want to build something that pushes the boundaries of what people expect from the web? Is your application going to be super simple, or do you want to add powerful features and maintain it well over time? If you’re serious about front end development, I advise you to take the time to learn Ember properly. Once you figure out how all the pieces fit together, you’ll won’t be able to live without them."
+  }]
+}
