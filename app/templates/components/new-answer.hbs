@@ -1,1 +1,17 @@
-{{yield}}
+{{#if answerForm}}
+  <h4>Enter your answer below. Feel free to elaborate as much as you like!</h4><br>
+  <form>
+    <div class="form-group">
+      <label for="content">Answer:</label>
+      {{input value=answerContent id="answerContent"}}
+    </div>
+    <div class="form-group">
+      <label for="author">Full name:</label>
+      {{input value=answerAuthor id="answerAuthor"}}
+    </div>
+    <button {{action 'newAnswer'}}>Post Answer</button>
+  </form>
+{{else}}
+  <h4>Think you can help?</h4>
+  <button {{action 'showAnswerForm'}}>Answer Question</button>
+{{/if}}

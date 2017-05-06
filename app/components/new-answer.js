@@ -11,6 +11,7 @@ export default Ember.Component.extend({
       var params = {
         author: this.get('answerAuthor'),
         content: this.get('answerContent'),
+        question: this.get('question'),
       };
       this.set('answerForm',false);
       this.sendAction('newAnswer',params);
