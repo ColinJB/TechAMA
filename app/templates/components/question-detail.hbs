@@ -1,0 +1,5 @@
+<h3>{{question.content}}</h3>
+{{edit-question question=question editQuestion="editQuestion"}}
+<button {{action 'destroyQuestion' question}}>Delete Question</button><br>
+Posted by: {{question.author}}<br>
+Additional Notes: {{question.notes}}<hr>
