@@ -12,8 +12,8 @@
       <label for="notes">Additional Notes:</label>
       {{input value=notes id="notes"}}
     </div>
-    <button {{action 'editQuestion' question}}>Update</button>
+    <button style="display:inline; width: 150px;"{{action 'editQuestion' question}}>Update</button>
   </form>
 {{else}}
-  <button {{action 'editFormShow'}}>Edit Question</button>
+  <button style="display:inline; width: 150px;"{{action 'editFormShow'}}>Edit Question</button>
 {{/if}}
