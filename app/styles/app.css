@@ -5,6 +5,7 @@
   font-size: 75px;
   position: absolute;
   top: 24px;
+  text-shadow: 2px 2px 15px rgba(0, 153, 128, 0.5);
 }
 
 #ama {
@@ -58,6 +59,7 @@
   padding-top: 40px;
   padding-bottom: 25px;
   font-weight: 200;
+  text-shadow: 2px 2px 3px rgba(0, 153, 128, 0.5);
 }
 
 
