@@ -1,7 +1,33 @@
-h1 {
-  font-family: inherit;
-  font-weight: 200;
-  padding-left: 150px;
+#tech {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: bold;
+  padding-left: 250px;
+  font-size: 75px;
+  position: absolute;
+  top: 24px;
+}
+
+#ama {
+  font-size: 40px;
+  position: absolute;
+  font-family: 'Shadows Into Light', cursive;
+  top: 0px;
+  left: 422px;
+  padding: 0px;
+  text-shadow: 2px 2px solid white;
+}
+
+#small {
+  font-size: 30px;
+  position: absolute;
+  right: 15px;
+  top: 0px;
+  font-family: 'Indie Flower', cursive;
+  text-align: right;
+}
+
+#tech, #ama, #small {
+  display: inline;
 }
 
 #qDetails {
@@ -13,10 +39,6 @@ h1 {
   color: #009980;
 }
 
-#small {
-  font-size: 20px;
-  padding: 20px;
-}
 
 #place {
   font-size: 25px;
@@ -33,6 +55,24 @@ h1 {
   padding-top: 40px;
   padding-bottom: 25px;
   font-weight: 200;
+}
+
+
+#detailQuote {
+  font-family: 'Indie Flower', cursive;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.notes {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.quote {
+  font-family: 'Indie Flower', cursive;
+  font-size: 25px;
+  font-weight: 500;
 }
 
 .newQ {
