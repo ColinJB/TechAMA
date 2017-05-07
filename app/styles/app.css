@@ -4,6 +4,11 @@ h1 {
   padding-left: 150px;
 }
 
+#qDetails {
+  position: fixed;
+  overflow: auto;
+}
+
 #answerAuthor {
   color: #009980;
 }
@@ -11,13 +16,6 @@ h1 {
 #small {
   font-size: 20px;
   padding: 20px;
-}
-
-.newQ {
-  border-radius: 60%;
-  font-size: 25px;
-  font-family: monospace;
-  padding: 15px;
 }
 
 #place {
@@ -35,4 +33,22 @@ h1 {
   padding-top: 40px;
   padding-bottom: 25px;
   font-weight: 200;
+}
+
+.newQ {
+  border-radius: 60%;
+  font-size: 25px;
+  font-family: monospace;
+  padding: 15px;
+}
+
+.newA {
+  border-radius: 60%;
+  font-size: 25px;
+  font-family: monospace;
+  padding: 15px;
+}
+
+.addiNotes {
+  padding-right: 30px;
 }
