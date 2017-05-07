@@ -3,6 +3,10 @@ h1 {
   font-weight: 200;
 }
 
+#answerAuthor {
+  color: #009980;
+}
+
 #small {
   font-size: 20px;
   padding: 20px;
