@@ -47,10 +47,12 @@
 #place {
   font-size: 25px;
   padding-top: 25px;
+  font-family: 'Arvo', serif;
 }
 
 #collab {
   font-size: 15px;
+  font-family: 'Arvo', serif;
 }
 
 #all {
@@ -71,6 +73,13 @@
 
 #answerTileWell {
   background-color: rgba(0, 153, 128, 0.1);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+#answersTitle {
+  font-family: 'Arvo', serif;
+  font-size: 32px;
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .answerContent {
@@ -113,15 +122,23 @@
 
 .edit {
   width: 125px;
-  border: 2px solid rgba(179, 179, 179, .7);
+  border: white;
   background-color: white;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  font-family: 'Arvo', serif;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .delete {
   width: 125px;
   float:right;
-  border: 2px solid rgba(179, 179, 179, .7);
+  border: white;
   background-color: white;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  font-family: 'Arvo', serif;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .edit:hover {
