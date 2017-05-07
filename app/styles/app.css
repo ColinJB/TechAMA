@@ -25,6 +25,7 @@
   top: 0px;
   font-family: 'Indie Flower', cursive;
   text-align: right;
+  position: fixed;
 }
 
 #tech, #ama, #small {
