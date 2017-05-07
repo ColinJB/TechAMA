@@ -1,8 +1,4 @@
 <h3>{{question.content}}<br><small> Posted by: <strong>{{question.author}}</strong></small></h3>
 <br>
 <p class="addiNotes" style="text-align:right;"><em>(Additional Notes)</em></p><p class="notes"> - {{question.notes}}</p>
-<br>
-<div style="text-align:left;">
-  {{edit-question question=question editQuestion="editQuestion"}}
-  <br><button style="width: 165px;"{{action 'destroyQuestion' question}}>Delete Question</button><hr>
-</div>
+<hr>

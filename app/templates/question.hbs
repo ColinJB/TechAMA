@@ -1,4 +1,12 @@
 <div class="row">
+  <div class="col-md-6">
+    {{edit-question question=model editQuestion="editQuestion"}}
+  </div>
+  <div class="col-md-6">
+    <button class="delete"{{action 'destroyQuestion' question}}>Delete Question</button>
+  </div>
+</div>
+<div class="row">
   <div class="col-md-5 col-md-offset-0">
     <div class="container">
       <div id="qDetails">
