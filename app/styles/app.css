@@ -36,7 +36,10 @@
 }
 
 #answerAuthor {
-  color: #009980;
+  color: #0d594c;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: bold;
 }
 
 
@@ -62,6 +65,15 @@
   font-family: 'Indie Flower', cursive;
   font-size: 28px;
   font-weight: 500;
+}
+
+#answerTileWell {
+  background-color: rgba(0, 153, 128, 0.1);
+}
+
+.answerContent {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
 }
 
 .notes {
