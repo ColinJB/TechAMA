@@ -1,0 +1,33 @@
+h1 {
+  font-family: inherit;
+  font-weight: 200;
+}
+
+#small {
+  font-size: 20px;
+  padding: 20px;
+}
+
+.newQ {
+  border-radius: 60%;
+  font-size: 25px;
+  font-family: monospace;
+  padding: 15px;
+}
+
+#place {
+  font-size: 25px;
+  padding-top: 25px;
+}
+
+#collab {
+  font-size: 15px;
+}
+
+#all {
+  font-size: 45px;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 25px;
+  font-weight: 200;
+}

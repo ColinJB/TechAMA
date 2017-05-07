@@ -1,19 +1,19 @@
 {{#if updateQuestion}}
   <form>
-    <div class="form-group">
-      <label for="content">Question:</label>
-      {{input value=content id="content"}}
-    </div>
-    <div class="form-group">
-      <label for="author">Full name:</label>
+    <div style="text-align:left;" class="form-group">
+      <label for="author">Full name:</label><br>
       {{input value=author id="author"}}
     </div>
     <div class="form-group">
-      <label for="notes">Additional Notes:</label>
-      {{input value=notes id="notes"}}
+      <label for="content">Question:</label>
+      {{input value=content id="content" size="65"}}
     </div>
-    <button style="display:inline; width: 150px;"{{action 'editQuestion' question}}>Update</button>
+    <div class="form-group">
+      <label for="notes">Additional Notes:</label>
+      {{input value=notes id="notes" size="65"}}
+    </div>
+    <button style="display:inline; width: 100%;"{{action 'editQuestion' question}}>Update</button>
   </form>
 {{else}}
-  <button style="display:inline; width: 150px;"{{action 'editFormShow'}}>Edit Question</button>
+  <button style="width: 100%;"{{action 'editFormShow'}}>Edit Question</button>
 {{/if}}

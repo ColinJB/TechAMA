@@ -2,19 +2,21 @@
   <h4>What is your question?</h4><br>
   <form>
     <div class="form-group">
-      <label for="content">Question:</label>
-      {{input value=content id="content"}}
-    </div>
-    <div class="form-group">
-      <label for="author">Full name:</label>
+      <label for="author">Full name:</label><br>
       {{input value=author id="author"}}
     </div>
     <div class="form-group">
-      <label for="notes">Additional Notes:</label>
-      {{input value=notes id="notes"}}
+      <label for="content">Question:</label>
+      {{input value=content id="content" size="162"}}
     </div>
-    <button {{action 'saveQuestion'}}>Post Question</button>
+    <div class="form-group">
+      <label for="notes">Additional Notes:</label>
+      {{input value=notes id="notes" size="162"}}
+    </div>
+    <button class="newQ"{{action 'saveQuestion'}}>Post Question</button>
   </form>
 {{else}}
-  <button {{action 'questionFormShow'}}>New Question</button>
+  <div style="text-align:center;">
+    <button class="newQ"{{action 'questionFormShow'}}>New Question</button><hr>
+  </div>
 {{/if}}

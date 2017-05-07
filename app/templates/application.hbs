@@ -1,9 +1,21 @@
 <div class= "container">
   <header class= "jumbotron">
-    <h1>Tech AMA</h1>
+    <h1>Tech AMA<small id="small"> "Ask and you shall receive"</small></h1>
   </header>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">TechAMA</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li><a class="nav" href="/">Home</a></li>
+        <li><a class="nav" href="https://stackoverflow.com/">StackOverflow</a></li>
+        <li><a class="nav" href="https://github.com/">GitHub</a></li>
+        <li><a class="nav" href="https://coderwall.com/">Coderwall</a></li>
+      </ul>
+    </div>
+  </nav>
     {{outlet}}
-  <footer>
-    {{#link-to 'index'}}Home{{/link-to}}
-  </footer>
+    <br>
+    <div style="text-align:center;">{{#link-to 'index'}}Home{{/link-to}}</div>
 </div>

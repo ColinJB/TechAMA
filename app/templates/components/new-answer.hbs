@@ -1,17 +1,19 @@
 {{#if answerForm}}
-  <h4>Enter your answer below. Feel free to elaborate as much as you like!</h4><br>
+  <h4>Enter your answer below. Feel free to elaborate as much as you like!</h4>
   <form>
     <div class="form-group">
-      <label for="content">Answer:</label>
-      {{input value=answerContent id="answerContent"}}
+      <label for="author">Full name:</label><br>
+      {{input value=answerAuthor id="answerAuthor"}}
     </div>
     <div class="form-group">
-      <label for="author">Full name:</label>
-      {{input value=answerAuthor id="answerAuthor"}}
+      <label for="content">Answer:</label>
+      {{input value=answerContent id="answerContent" size="65"}}
     </div>
     <button {{action 'newAnswer'}}>Post Answer</button>
   </form>
 {{else}}
+<div style="text-align:center;">
   <h4>Think you can help?</h4>
-  <button {{action 'showAnswerForm'}}>Answer Question</button>
+  <button style="width: 170px;"{{action 'showAnswerForm'}}>Answer Question</button>
+</div>
 {{/if}}

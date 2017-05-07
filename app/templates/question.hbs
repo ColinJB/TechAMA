@@ -3,14 +3,14 @@
     {{question-detail question=model editQuestion="editQuestion" destroyQuestion="destroyQuestion"}}
     {{new-answer question=model newAnswer="newAnswer"}}
   </div>
-  <div style="text-align:center;" class="col-md-7">
-    <h3>Answers:</h3>
+  <div class="col-md-7">
+    <h3 style="text-align:center;">Answers:</h3>
     {{#if model.answers}}
       {{#each model.answers as |answer|}}
         {{answer-tile answer=answer}}
       {{/each}}
     {{else}}
-      <p>Nobody has answered this question yet! I think it's your time to shine.</p>
+      <p style="text-align:center;">Nobody has answered this question yet! I think it's your time to shine.</p>
     {{/if}}
   </div>
 </div>

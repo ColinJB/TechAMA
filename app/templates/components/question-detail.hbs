@@ -1,5 +1,8 @@
-<h3 style="display:inline;">{{question.content}}</h3><br><br>
-Posted by: {{question.author}}<br>
-Additional Notes: {{question.notes}}
-<br><br>{{edit-question question=question editQuestion="editQuestion"}}
-<br><button style="display:inline; width: 150px;"{{action 'destroyQuestion' question}}>Delete Question</button><hr>
+<h3>{{question.content}}<br><small> Posted by: <strong>{{question.author}}</strong></small></h3>
+<br>
+<p style="text-align:right;"><em>Additional Notes</em></p><p class="notes">{{question.notes}}</p>
+<br>
+<div style="text-align:center;">
+  {{edit-question question=question editQuestion="editQuestion"}}
+  <br><button style="display:inline; width: 100%;"{{action 'destroyQuestion' question}}>Delete Question</button><hr>
+</div>
